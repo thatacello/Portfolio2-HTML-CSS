@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
+    <title>Meu Portfólio</title>
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        margin: 0;
+        font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    }
+    footer {
+        background-color: #9E9E9E;
+        padding: 30px;
+        color: white;
+    }
+#topMenu {
+    display: flex;
+    background-color: #BDBDBD;
+    margin: 0;
+}
+#topMenu li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+#topMenu li:first-child {
+    margin-right: auto;
+}
+.section1 {
+    display:flex;
+    height: 100vh;
+    background-color: #E91E63;
+}
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+.section2 {
+    display: flex;
+    background-color: white;
+    height: 33vh;
+}
+.imagemProjeto {
+    width: 15vw;
+    height: 20vh;
+    padding: 15px;
+}
+.section3 {
+    display: flex;
+    background-color: #BDBDBD;
+    height: 33vh;
+}
+.botaoPreto {
+    background-color: #212121;
+    border-radius: 5px;
+    color:white;
+    padding: 15px;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+</style>
+<body>
+   <nav>
+       <ul id="topMenu">
+           <li>Logo</li>
+           <li>Home</li>
+           <li>Projetos</li>
+           <li>Contato</li>
+       </ul>
+   </nav>
+   <div class="section1">
+       <div class="centralize">
+           <h1 style="color: white;">
+               Thais Cardoso de Farias
+           </h1>
+           <a href="#projetos">
+            <button class="botaoPreto">
+                Meus Projetos
+            </button>
+           </a>
+          
+
+       </div>
+
+   </div>
+   <div id="projetos" class="section2 centralize">
+       <table class="centralize">
+           <tr>
+               <td style="width:40%"><img class="imagemProjeto" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="imagem do projeto"></img>
+               </td>
+               <td style="width:60%; text-align: left">
+                <ul style="color:#E91E63;">
+                    Projeto 1
+                    <hr>
+                    <li>Descrição do projeto</li>
+                    <li>Tecnologia 1</li>
+                    <li>Tecnologia 2</li>
+                    <li>Tecnologia 3</li>
+                    <li>Tecnologia 4</li>
+                </ul>
+               </td>
+           </tr>
+       </table>
+    </div>
+
+   <div id="projetos" class="section3 centralize">
+    <table class="centralize">
+        <tr>
+            <td style="width:60%; text-align: left">
+             <ul style="color:white;">
+                 Projeto 1
+                 <hr>
+                 <li>Descrição do projeto</li>
+                 <li>Tecnologia 1</li>
+                 <li>Tecnologia 2</li>
+                 <li>Tecnologia 3</li>
+                 <li>Tecnologia 4</li>
+             </ul>
+            </td>
+            <td style="width:40%"><img class="imagemProjeto" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="imagem do projeto"></img>
+            </td>
+        </tr>
+    </table>
+    </div>
+<div id="projetos" class="section2 centralize">
+    <table class="centralize">
+        <tr>
+            <td style="width:40%"><img class="imagemProjeto" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="imagem do projeto"></img>
+            </td>
+            <td style="width:60%; text-align: left">
+             <ul style="color:#E91E63;">
+                 Projeto 1
+                 <hr>
+                 <li>Descrição do projeto</li>
+                 <li>Tecnologia 1</li>
+                 <li>Tecnologia 2</li>
+                 <li>Tecnologia 3</li>
+                 <li>Tecnologia 4</li>
+             </ul>
+            </td>
+        </tr>
+    </table>
+
+</div>
+<footer>
+    <h5 class="centralize">
+        @Criado por Thais
+    </h5>
+</footer>
+
+</body>
+</html>
